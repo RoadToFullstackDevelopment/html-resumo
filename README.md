@@ -37,13 +37,13 @@ Quando o navegador lê um documento HTML, o faz de cima para baixo e da esquerda
 O conteúdo localiza-se entre os marcadores para exibir dados na página **web**.
 
 ## Todos os marcadores HMTL têm um fechamento?
-Não. Há alguns marcadores HTML que são vazios. Exemplo: **<img>**, **<br>**, **<hr>**.
+Não. Há alguns marcadores HTML que são vazios. Exemplo: **img**, **br**, **hr**.
 
 ## O que é a formatação no HTML?
 A formatação no HTML é um processo no qual o texto sofre modificações para obter uma aparência melhor. Utiliza marcadores diferentes para deixar o texto em negrito, itálico, sublinhado, etc.
 
 ## Quantos tamanhos de título existem no HTML?
-Existem no HTML seis tamanhos diferentes de títulos definidos de **<h1>** (maior) a **<h6>** (menor).
+Existem no HTML seis tamanhos diferentes de títulos definidos de **h1** (maior) a **h6**(menor).
 
 ### Exemplo
 
@@ -72,18 +72,18 @@ Esses marcadores podem aparecer nas formas a seguir:
 * ***Link*** **ativo**: aparece sublinhado e com a cor vermelha.
 
 ## Qual marcador HTML é utilizado para exibir dados em forma de tabela?
-O marcador **<table>** é utilizado para exibir dados em forma de tabela (linha * coluna). Esse marcador também controla o visual da página, por exemplo: cabeçalho, navegação, conteúdo,rodapé. Aqui está uma lista de marcadores utilizados que exibem os dados em forma de tabela.
+O marcador **table** é utilizado para exibir dados em forma de tabela (linha * coluna). Esse marcador também controla o visual da página, por exemplo: cabeçalho, navegação, conteúdo,rodapé. Aqui está uma lista de marcadores utilizados que exibem os dados em forma de tabela.
 
-* ***<table>***: define uma tabela.
-* ***<tr>***: define uma linha em uma tabela.
-* ***<th>***: define uma célula de cabeçalho em uma tabela.
-* ***<td>***: define uma célula em uma tabela.
-* ***<caption>***: define uma legenda.
-* ***<colgroup>***: especifica um grupo de uma ou mais colunas em uma tabela para fins de formatação.
-* ***<col>***: utilizado com o marcador **<colgroup>** para especificar propriedades para cada coluna.
-* ***<tbody>***: usado para agrupar o conteúdo do corpo de uma tabela.
-* ***<thead>***: usado para agrupar o conteúdo do cabeçalho de uma tabela.
-* ***<tfooter>***: usado para agrupar o conteúdo do rodapé de uma tabela.
+* ***table***: define uma tabela.
+* ***tr***: define uma linha em uma tabela.
+* ***th***: define uma célula de cabeçalho em uma tabela.
+* ***td***: define uma célula em uma tabela.
+* ***caption***: define uma legenda.
+* ***colgroup***: especifica um grupo de uma ou mais colunas em uma tabela para fins de formatação.
+* ***col***: utilizado com o marcador **colgroup** para especificar propriedades para cada coluna.
+* ***tbody***: usado para agrupar o conteúdo do corpo de uma tabela.
+* ***thead***: usado para agrupar o conteúdo do cabeçalho de uma tabela.
+* ***tfooter***: usado para agrupar o conteúdo do rodapé de uma tabela.
 
 ## Escreva uma tabela em HTML com os seguintes dados:
 ### 50 pcs 100 500
@@ -107,7 +107,7 @@ O marcador **<table>** é utilizado para exibir dados em forma de tabela (linha 
 ## Quais são os tipos de lista usados ao desenhar uma página?
 Existem alguns tipos de lista usados para desenhar uma página. Você pode escolher qualquer tipo de lista a seguir:
 
-* ***Lista ordenada***: exibe elementos em formato numerado. É representada pelo marcador **<ol>**.
+* ***Lista ordenada***: exibe elementos em formato numerado. É representada pelo marcador **ol**.
 
 ```
 <ol>
@@ -117,7 +117,7 @@ Existem alguns tipos de lista usados para desenhar uma página. Você pode escol
 </ol>
 ```
 
-* ***Lista não ordenada***: exibe elementos em formato de ponto. É representada pelo marcador **<ul>**.
+* ***Lista não ordenada***: exibe elementos em formato de ponto. É representada pelo marcador **ul**.
 
 ```
 <ul>
@@ -127,7 +127,7 @@ Existem alguns tipos de lista usados para desenhar uma página. Você pode escol
 </ul>
 ```
 
-* ***Lista de definição***: exibe elementos como se fosse um dicionário. Os marcadores **<dl>**, **<dt>** e **<dd>** são usados para definir a lista de definição.
+* ***Lista de definição***: exibe elementos como se fosse um dicionário. Os marcadores **dl**, **dt** e **dd** são usados para definir a lista de definição.
 
 ```
 <dl>
