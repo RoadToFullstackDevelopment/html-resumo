@@ -19,8 +19,10 @@ HTML significa ***Hyper Text Markup Langage***. É a linguagem da **World Wide W
 
 ## O que são marcadores (***tags***)?
 Os marcadores HTML compõem-se de três elementos: marcador inicial, conteúdo e marcador final. Alguns marcadores não possuem fechamento. Os documentos HTML contém dois elementos:
+
 * Conteúdo
 * Marcadores
+
 Quando o navegador lê um documento HTML, o faz de cima para baixo e da esquerda para a direita. Os marcadores HTML são usados para criar documentos HTML e reproduzir suas propriedades. Cada marcador HTML tem propriedades distintas.
 
 ### Sintaxe
