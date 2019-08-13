@@ -207,3 +207,120 @@ Ambas declarações podem conter até 1022 caracteres. Se uma palavra-chave for 
 
 * `div` é um elemento em bloco (***block element***).
 * `span` é um elemento em linha (***inline element***).
+
+## O que é codificador de caracteres (*Character Encoding*)?
+Para exibir uma página HTML corretamente, um navegador precisa saber qual conjunto de caracteres (codificador de caracteres) deve usar, o que está especificado no marcador.
+
+```
+<head>
+   <meta charset="UTF-8">
+</head>
+```
+
+## É possível destacar um texto no HTML?
+Se você estiver trabalhando com uma página no padrão HTML5, o marcador `mark` pode ser uma forma fácil e rápida de destacar um texto na página.
+
+```
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+```
+
+Para destacar um texto no padrão HTML que seja suportado por todos os navegadores, utilize o estilo de cor de fundo dentro do marcador HTML.
+
+```
+<p>Do not forget to buy <span style="background-color: yellow;">milk</span> today.</p>
+```
+
+## O que é um marcador vazio?
+Os marcadores vazios são elementos que não tem necessidade de possuir fechamento. Exemplo: `img`, `br`, `hr`.
+
+## Descreva brevemente o uso correto dos seguintes elementos semânticos do HTML5: *header*, *article*, *section*, *footer*, *nav*, *aside*, *main*
+
+* `header`: cabeçalho do documento ou seção
+* `nav`: menu de navegação
+* `main`: conteúdo principal de um documento
+* `aside`: conteúdo localizado na parte lateral de uma página
+* `article`: conteúdo independente
+* `section`: seção do documento
+* `footer`: rodapé da página
+
+## Explique a diferença entre elementos em bloco (*block elements*) e elementos em linha (*inline elements*)
+***Elementos em bloco*** formam um bloco visível na página. Eles aparecerão em uma nova linha logo após qualquer elemento que venha antes dele, e qualquer conteúdo depois de um elemento em bloco também aparecerá em uma nova linha. São elementos em bloco: `p`, `ol`, `ul`, `nav`, `footer`, etc.
+***Elementos inline (em linha)*** são aqueles que estão contidos dentro de elementos em bloco, envolvem apenas pequenas partes do conteúdo do documento e não parágrafos inteiros ou agrupamentos de conteúdo. São elementos em linha: `a`, `strong`, `em`. 
+
+```
+<!-- Cabeçalhos de títulos e legendas (elemento block) -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+```
+<!-- Link (elemento inline) -->
+<a href=”http://www.google.com”>Acesse o Google</a>
+```
+
+```
+<!-- Tabela (elemento block) -->
+<table>
+   <thead>
+     <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>January</td>
+       <td>$100</td>
+     </tr>
+     <tr>
+       <td>February</td>
+       <td>$150</td>
+     </tr>
+    </tbody>
+</table>
+```
+
+```
+<!-- Lista ordenada (elemento block) -->
+<ol>
+   <li>Item</li>
+   <li>Item</li>
+   <li>Item</li>
+   <li>Item</li>
+</ol>
+```
+
+```
+<!-- Lista não ordenada (elemento block) -->
+<ul>
+   <li>Item</li>
+   <li>Item</li>
+   <li>Item</li>
+   <li>Item</li>
+</ul>
+```
+
+```
+<!-- Imagem (elemento inline) -->
+<img src=”image.jpg” alt=”imagem da igreja”>
+```
+
+```
+<!-- Linha divisória (elemento inline) -->
+<hr>
+```
+
+```
+<!-- Data (elemento inline) -->
+<input type=”date”>
+```
+
+```
+<!-- Realçar um texto (elemento inline) -->
+<p>Este texto está <mark>realçado</mark></p>
+```
+
