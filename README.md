@@ -6,17 +6,14 @@ HTML significa ***Hyper Text Markup Langage***. É a linguagem da **World Wide W
 ```
 <!-- Estrutura de um documento HMTL -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Tutorial</title>
-    </head>
-
-<body>
-
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-
-</body>
+   <html>
+     <head>
+       <title>HTML Tutorial</title>
+     </head>
+     <body>
+       <h1>This is a heading</h1>
+       <p>This is a paragraph.</p>
+    </body>
 </html>
 ```
 
@@ -91,16 +88,16 @@ O marcador `table` é utilizado para exibir dados em forma de tabela (linha * co
 
 ```
 <table>
-    <tr>
-        <td>50 pcs</td>
-        <td>100</td>
-        <td>500</td>
-    </tr>
-    <tr>
-        <td>10 pcs</td>
-        <td>5</td>
-        <td>50</td>
-    </tr>
+   <tr>
+     <td>50 pcs</td>
+     <td>100</td>
+     <td>500</td>
+   </tr>
+   <tr>
+     <td>10 pcs</td>
+     <td>5</td>
+     <td>50</td>
+   </tr>
 </table>
 ```
 
@@ -111,9 +108,9 @@ Existem alguns tipos de lista usados para desenhar uma página. Você pode escol
 
 ```
 <ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ol>
 ```
 
@@ -121,9 +118,9 @@ Existem alguns tipos de lista usados para desenhar uma página. Você pode escol
 
 ```
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
 ```
 
@@ -131,10 +128,10 @@ Existem alguns tipos de lista usados para desenhar uma página. Você pode escol
 
 ```
 <dl>
-    <dt>Item</dt>
-    <dd>Definition</dd>
-    <dt>Item</dt>
-    <dd>Definition</dd>
+  <dt>Item</dt>
+  <dd>Definition</dd>
+  <dt>Item</dt>
+  <dd>Definition</dd>
 </dl>
 ```
 
@@ -324,3 +321,8 @@ Os marcadores vazios são elementos que não tem necessidade de possuir fechamen
 <p>Este texto está <mark>realçado</mark></p>
 ```
 
+## O que significa criar um HTML semântico? Por que é importante?
+O HTML semântico permite a criação de seções de conteúdo baseadas na funcionalidade, para que tecnologias assistivas e leitores de tela possam reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
+
+## Por que se diz que o HTML está aninhado?
+“Aninhamento” é quando um elemento está dentro de outro elemento. Por exemplo, o elemento `title` está dentro do elemento `head`, ou o elemento `p` está dentro do elemento `body`.
