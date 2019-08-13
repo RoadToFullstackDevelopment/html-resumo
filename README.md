@@ -144,3 +144,66 @@ Elementos HTML comunicam-se com o navegador para reproduzir texto. Quando um ele
 ## O que é o HTML semântico?
 HTML semântico é um estilo de código. É a utilização de marcação HTML para reforçar a semântica ou o significado do conteúdo. Exemplo: no HTML semântico o marcador `b` não é utilizado para textos em negrito, nem o marcador `i` é utilizado para textos em itálico. Em vez desses marcadores, utilizamos `strong` e `em`.
 
+## O que é um mapa de imagem?
+O mapa de imagem facilita o vínculo a várias páginas diferentes com o uso de uma única imagem. É representado pelo marcado `map`. Você pode definir formas em imagens que você quer que façam parte do mapa.
+
+```
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+```
+
+## Como inserir um símbolo de *copyright* em uma página HTML?
+Você pode inserir um símbolo de *copyright* usando `&copy;` ou `&#169;` em um arquivo HTML.
+
+## Qual é o propósito do atributo *alt* em imagens?
+O atributo `alt` fornece informações alternativas com relação à imagem, quando um usuário não consegue vê-la. Esse atributo deve ser utilizado para descrever qualquer imagem, com exceção das imagens que servem somente para fins de decoração.
+
+```
+<img src="img.jpg" alt="montanha">
+```
+
+## Explique o uso do marcador *meta* no HTML
+O marcador `meta` descreve metadados dentro de um documento HTML. Estes metadados não aparecerão na página, porém serão analisados pela máquina. Este marcador especifica a descrição da página, palavras-chave (***keywords***), autor do documento, última modificação e outros metadados.
+
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
+
+## Para que serve o marcador *iframe*?
+O marcador `iframe` serve para exibir uma página dentro de outra página.
+
+```
+<iframe src="https://www.google.com"></iframe>
+```
+
+## Descreva alguns dos objetivos e motivações principais da especificação HTML5
+O HTML5 foi criado para substituir HTML4, XHTML e HTML DOM Nível 2. Os objetivos e motivações principais por trás da especificação HTML5 eram:
+
+* Entrega de um rico conteúdo (gráficos, vídeos, etc.) sem a necessidade de *plugins* adicionais como o Flash.
+* Fornecimento de um suporte semântico melhor para a página *web* por meio de marcadores de elementos estruturais.
+* Fornecimento de um padrão de análise (***parse***) mais preciso de modo a simplificar o manuseio de erros, além de garantir um comportamento entre navegadores mais consistente e simplificar a compatibilidade com documentos escritos em outros padrões.
+* Fornecimento de um melhor suporte entre plataformas, quer a pessoa utilize um PC, um *tablet* ou um *smartphone*.
+
+## Como posso conseguir uma colocação melhor nas páginas de busca?
+É possível obter melhores colocações ao incluir as seguintes declarações no `head` do documento:
+
+```
+<meta name="keywords" content="keyword keyword keyword keyword">
+<meta name="description" content="description of your site">
+```
+
+Ambas declarações podem conter até 1022 caracteres. Se uma palavra-chave for utilizada mais de 7 vezes, o marcador de palavras-chave será totalmente ignorado. Além disso, você também não pode incluir marcação (além de entidades) na descrição ou lista de palavras-chave.
+
+## Qual é a diferença entre *span* e *div*?
+
+* `div` é um elemento em bloco (***block element***).
+* `span` é um elemento em linha (***inline element***).
