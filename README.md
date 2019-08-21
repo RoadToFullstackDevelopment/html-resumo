@@ -39,8 +39,13 @@ Não. Há alguns marcadores HTML que são vazios. Exemplo: `img`, `br`, `hr`.
 ## O que é a formatação no HTML?
 A formatação no HTML é um processo no qual o texto sofre modificações para obter uma aparência melhor. Utiliza marcadores diferentes para deixar o texto em negrito, itálico, sublinhado, etc.
 
+(Ju) A formatação também pode ser feita pelo CSS, inclusive recomendamos que seja feito dessa forma para que tudo que esteja relacionado ao estilo (inclusive negrito, itálico, etc) seja responsabilidade do CSS.
+
 ## Quantos tamanhos de título existem no HTML?
 Existem no HTML seis tamanhos diferentes de títulos definidos de `h1` (maior) a `h6` (menor).
+
+(Ju) Assim como a formatação, o tamanho da fonte (menor ou maior) normalmente deixamos para o CSS. Porém é importante usar o peso dos títulos (h1 para mais importante e etc) da forma correta para que as informações sejam indexadas da forma correta pelos motores de busca (ex Google) e para que seu HTML fique bem legível.
+
 
 ### Exemplo
 
@@ -141,6 +146,8 @@ Elementos HTML comunicam-se com o navegador para reproduzir texto. Quando um ele
 ## O que é o HTML semântico?
 HTML semântico é um estilo de código. É a utilização de marcação HTML para reforçar a semântica ou o significado do conteúdo. Exemplo: no HTML semântico o marcador `b` não é utilizado para textos em negrito, nem o marcador `i` é utilizado para textos em itálico. Em vez desses marcadores, utilizamos `strong` e `em`.
 
+(Ju) É importante utilizar os marcadores de conteúdo como `<section>`, `<main>`, `<article>`, entre outros, para que o as seções de seu site/aplicativo sejam facilmente identificáveis tanto pelas pessoas quanto pelos leitores de tela. 
+
 ## O que é um mapa de imagem?
 O mapa de imagem facilita o vínculo a várias páginas diferentes com o uso de uma única imagem. É representado pelo marcado `map`. Você pode definir formas em imagens que você quer que façam parte do mapa.
 
@@ -161,6 +168,8 @@ O atributo `alt` fornece informações alternativas com relação à imagem, qua
 ```
 <img src="img.jpg" alt="montanha">
 ```
+
+O "alt" também serve para fins de acessibilidade, então a descrição da imagem deve ser bem pensada para isso também.
 
 ## Explique o uso do marcador *meta* no HTML
 O marcador `meta` descreve metadados dentro de um documento HTML. Estes metadados não aparecerão na página, porém serão analisados pela máquina. Este marcador especifica a descrição da página, palavras-chave (***keywords***), autor do documento, última modificação e outros metadados.
@@ -226,6 +235,8 @@ Para destacar um texto no padrão HTML que seja suportado por todos os navegador
 ```
 <p>Do not forget to buy <span style="background-color: yellow;">milk</span> today.</p>
 ```
+
+(Ju) Esse exemplo utiliza estilo inserido diretamente no HTML. É recomendado que isso seja feito pelo CSS e, ao invés de utilizar `style="etc"`, utilizar uma classe para chamar o estilo correspondente.
 
 ## O que é um marcador vazio?
 Os marcadores vazios são elementos que não tem necessidade de possuir fechamento. Exemplo: `img`, `br`, `hr`.
@@ -322,7 +333,7 @@ Os marcadores vazios são elementos que não tem necessidade de possuir fechamen
 ```
 
 ## O que significa criar um HTML semântico? Por que é importante?
-O HTML semântico permite a criação de seções de conteúdo baseadas na funcionalidade, para que tecnologias assistivas e leitores de tela possam reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal".
+O HTML semântico permite a criação de seções de conteúdo baseadas na funcionalidade, para que tecnologias assistivas e leitores de tela possam reconhecer esses elementos e ajudar em tarefas como "encontrar o menu de navegação" ou "encontrar o conteúdo principal". Também é importante para que qualquer pessoa que vá ler o seu código consiga identificar facilmente as partes da aplicação/site.
 
 ## Por que se diz que o HTML está aninhado?
 “Aninhamento” é quando um elemento está dentro de outro elemento. Por exemplo, o elemento `title` está dentro do elemento `head`, ou o elemento `p` está dentro do elemento `body`.
